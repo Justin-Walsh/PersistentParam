@@ -6,6 +6,7 @@ step "paramrename" {
 
     action {
         properties = {
+            Blah3 = "2:25pm"
             Blah4 = "World"
             Octopus.Action.RunOnServer = "false"
             Octopus.Action.Template.Id = "ActionTemplates-3225"
