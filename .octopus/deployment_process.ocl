@@ -6,11 +6,10 @@ step "paramrename" {
 
     action {
         properties = {
-            Blah2 = "TryFromGH"
-            Blah3 = "World"
+            Blah4 = "World"
             Octopus.Action.RunOnServer = "false"
             Octopus.Action.Template.Id = "ActionTemplates-3225"
-            Octopus.Action.Template.Version = "2"
+            Octopus.Action.Template.Version = "3"
         }
         worker_pool_variable = ""
     }
