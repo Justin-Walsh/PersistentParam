@@ -1,0 +1,16 @@
+step "paramrename" {
+    name = "ParamRename"
+    properties = {
+        Octopus.Action.TargetRoles = "Linux"
+    }
+
+    action {
+        properties = {
+            Blah2 = "World"
+            Octopus.Action.RunOnServer = "false"
+            Octopus.Action.Template.Id = "ActionTemplates-3225"
+            Octopus.Action.Template.Version = "1"
+        }
+        worker_pool_variable = ""
+    }
+}
